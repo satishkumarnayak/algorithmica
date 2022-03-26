@@ -10,7 +10,7 @@ public class LogarithimicProcess {
 		for (int nrabbits = 1; nrabbits < n; nrabbits *= 2)
 			++ndays;
 		System.out.println(ndays);
-
+ 
 		// repeated halving
 		ndays = 0;
 		for (int ncovid = n; ncovid >= 1; ncovid /= 2)
